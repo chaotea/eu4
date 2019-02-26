@@ -1,0 +1,46 @@
+country_decisions = {
+	rise_of_the_dutch_colonial_empire = {
+		major = yes
+		potential = {
+			OR = {
+				tag = HOL
+				tag = NED
+			}
+			ai = no
+			NOT = { has_country_modifier = the_dutch_colonial_empire }
+			NOT = { is_year = 1446 }
+		}
+		allow = {
+			is_at_war = no
+		}
+		effect = {
+			add_country_modifier = {
+				name = "the_dutch_colonial_empire"
+				duration = -1
+			}
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+	end_of_the_dutch_colonial_empire = {
+		major = yes
+		potential = {
+			OR = {
+				tag = HOL
+				tag = NED
+			}
+			ai = no
+			has_country_modifier = the_dutch_colonial_empire
+		}
+		allow = {
+			has_country_modifier = the_dutch_colonial_empire
+		}
+		effect = {
+			remove_country_modifier = the_dutch_colonial_empire
+		}
+		ai_will_do = {
+			factor = 0
+		}
+	}
+}

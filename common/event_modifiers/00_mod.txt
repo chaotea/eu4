@@ -1,0 +1,7 @@
+the_dutch_colonial_empire = {
+	colonists = 5
+	global_colonial_growth = 200
+	native_assimilation = 2.0
+	native_uprising_chance = -0.5
+	range = 2.00
+}

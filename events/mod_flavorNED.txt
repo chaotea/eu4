@@ -1,0 +1,66 @@
+namespace = mod_flavorNED
+
+country_event = {
+	id = mod_flavorNED.1
+	title = "mod_flavorNED.1.t"
+	desc = "mod_flavorNED.1.d"
+	picture = REFORM_eventPicture
+	
+	fire_only_once = yes
+	
+	trigger = {
+		OR = {
+			tag = NED
+			tag = HOL
+		}
+		ai = no
+		is_year = 1445
+	}
+	
+	mean_time_to_happen = {
+		months = 1
+	}
+
+	option = {
+		name = "mod_flavorNED.1.a"
+		every_province = {
+			limit = {
+				OR = {
+					region = low_countries_region
+					area = picardy_area
+				}
+			}
+			add_core = ROOT
+		}
+		hidden_effect = {
+			country_event = {
+				id = mod_flavorNED.2
+				days = 100
+			}
+		}
+	}
+}
+
+country_event = {
+	id = mod_flavorNED.2
+	title = "mod_flavorNED.2.t"
+	desc = "mod_flavorNED.2.d"
+	picture = NAVAL_MILITARY_eventPicture
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "mod_flavorNED.2.a"
+		366 = {
+			cede_province = ROOT
+			add_core = ROOT
+		}
+		367 = {
+			cede_province = ROOT
+			add_core = ROOT
+		}
+		368 = {
+			cede_province = ROOT
+			add_core = ROOT
+		}
+	}

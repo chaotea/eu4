@@ -1,0 +1,13 @@
+﻿l_english:
+ mod_flavorNED.1.t:0 "The Rise of the Dutch Empire"
+ mod_flavorNED.1.d: "For too long the people of the lowlands have been subject to the tyrannical rule of the Burgundian Dukes. It is time to unite, and claim our destiny as knights of the sea."
+ mod_flavorNED.1.a: "Voor het Nederlandse Rijk!"
+ mod_flavorNED.2.t: "The Isles of Destiny"
+ mod_flavorNED.2.d: "In order to rule the waves and grow the Empire, we must first control the gateway to the East. The Iberians are busy squabbling with each other, and now is the perfect opportunity to strike!"
+ mod_flavorNED.2.a: "Seize them!"
+ rise_of_the_dutch_colonial_empire_title: "Rise of the Dutch Colonial Empire"
+ rise_of_the_dutch_colonial_empire_desc: "It is time for us to rule the world!"
+ end_of_the_dutch_colonial_empire_title: "End of the Dutch Colonial Empire"
+ end_of_the_dutch_colonial_empire_desc: "The colonial expansion period has come to an end. Now we must administer our mighty empire."
+ the_dutch_colonial_empire: "The Dutch Colonial Empire"
+ desc_the_dutch_colonial_empire: "The sun never sets on the Dutch Empire."
