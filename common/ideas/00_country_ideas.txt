@@ -305,11 +305,12 @@ NED_ideas = {
 	}
 	free = yes		#will be added at load.
 	
-	amsterdam_wisselbank = {
-		inflation_reduction = 0.1
-	}
 	dutch_trading_spirit = {
 		merchants = 5
+		may_explore = yes
+	}
+	amsterdam_wisselbank = {
+		inflation_reduction = 0.1
 	}
 	polders = {
 		development_cost = -0.25
