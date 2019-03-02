@@ -4,7 +4,7 @@ country_event = {
 	id = mod_flavorNED.1
 	title = "mod_flavorNED.1.t"
 	desc = "mod_flavorNED.1.d"
-	picture = REFORM_eventPicture
+	picture = STREET_SPEECH_eventPicture
 	
 	fire_only_once = yes
 	
@@ -26,7 +26,18 @@ country_event = {
 		every_province = {
 			limit = {
 				OR = {
-					region = low_countries_region
+					area = netherlands_area
+					area = frisia_area
+				}
+			}
+			cede_province = ROOT
+			add_core = ROOT
+		}
+		every_province = {
+			limit = {
+				OR = {
+					area = flanders_area
+					area = wallonia_area
 					area = picardy_area
 				}
 			}
