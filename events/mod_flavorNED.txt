@@ -90,6 +90,7 @@ country_event = {
 		}
 		ai = no
 		is_religion_enabled = protestant
+		NOT = { has_country_flag = reformation_of_the_west }
 	}
 	
 	option = {
@@ -110,5 +111,6 @@ country_event = {
 				duration = 9000
 			}
 		}
+		set_country_flag = reformation_of_the_west
 	}
 }
