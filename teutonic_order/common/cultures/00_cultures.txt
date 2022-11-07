@@ -101,6 +101,9 @@ germanic = {
 	russian_german = {
 		primary = PSK
 	}
+	scandinavian_german = {
+		primary = GOT
+	}
 	lower_saxon = {
 		primary = HAN
 		male_names = {
